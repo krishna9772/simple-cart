@@ -1,13 +1,20 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-   title: MyString
+  title: MyString
   description: MyText
-  image_url: MyString
+  image_url: dpchat.jpg
   price: 9.99
 
 two:
-   title: MyString
+  title: MyString
   description: MyText
-  image_url: MyString
+  image_url: canonCamera.jpeg
   price: 9.99
+
+ruby:
+   title: Programming Ruby 1.9
+   description: Ruby Programming is the most dynamic programming language with greate and user familiary sysntax
+   price: 50
+   image_url: SmartDigitalWatch.jpeg
+
