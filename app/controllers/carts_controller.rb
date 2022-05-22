@@ -1,5 +1,5 @@
 class CartsController < ApplicationController
-  before_action :set_cart, only: %i[ show edit update destroy ]
+  before_action :set_cart, only: %i[ show edit update destroy ] # To execute the set_cart action before call crud operations
   rescue_from ActiveRecord::RecordNotFound, with: :invalid_cart
 
   # GET /carts or /carts.json
